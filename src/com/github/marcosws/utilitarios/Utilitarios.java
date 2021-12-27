@@ -1,8 +1,12 @@
 package com.github.marcosws.utilitarios;
 
+import com.github.marcosws.utilitarios.data.Data;
+import com.github.marcosws.utilitarios.doc.Doc;
+
 public class Utilitarios {
 	
-	
+	public static final Data data = new Data();
+	public static final Doc doc = new Doc();
 	
 	public static String removeAcentos(String texto) {
 		
