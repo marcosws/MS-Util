@@ -2,11 +2,13 @@ package com.github.marcosws.utilitarios;
 
 import com.github.marcosws.utilitarios.data.Data;
 import com.github.marcosws.utilitarios.doc.Doc;
+import com.github.marcosws.utilitarios.json.JsonParser;
 
 public class Utilitarios {
 	
 	public static final Data data = new Data();
 	public static final Doc doc = new Doc();
+	public static final JsonParser json = new JsonParser();
 	
 	public static String removeAcentos(String texto) {
 		
