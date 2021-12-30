@@ -3,7 +3,7 @@ package com.github.marcosws.utilitarios.json;
 import java.util.HashMap;
 import java.util.Map;
 
-public class JsonParse {
+public class JsonParser {
 	
 
 	/**
